@@ -1,8 +1,9 @@
 package main.java.abstract_factory;
 
-public class BudgetCPU implements CPU {
+public class BudgetStorage implements Storage {
     @Override
     public String getName() {
-        return "AMD Ryzen 5";
+        return "1TB SSD";
     }
+
 }

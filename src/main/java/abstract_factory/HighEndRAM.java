@@ -1,8 +1,8 @@
 package main.java.abstract_factory;
 
-public class BudgetCPU implements CPU {
+public class HighEndRAM implements RAM {
     @Override
     public String getName() {
-        return "AMD Ryzen 5";
+        return "64GB DDR5";
     }
 }

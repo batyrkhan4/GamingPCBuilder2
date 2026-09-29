@@ -1,8 +1,8 @@
 package main.java.abstract_factory;
 
-public class BudgetCPU implements CPU {
+public class HighEndCPU implements CPU {
     @Override
     public String getName() {
-        return "AMD Ryzen 5";
+        return "AMD Ryzen 7";
     }
 }

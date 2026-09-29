@@ -1,8 +1,9 @@
 package main.java.abstract_factory;
 
-public class BudgetCPU implements CPU {
+public class HighEndGPU implements GPU {
     @Override
     public String getName() {
-        return "AMD Ryzen 5";
+        return "NVIDIA RTX 5090";
     }
+
 }
