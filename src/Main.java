@@ -8,10 +8,14 @@ import main.java.factory_method.HighEndPCFactory;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("===== FACTORY METHOD =====");
+        // ==========================
+        // FACTORY METHOD
+        // ==========================
 
         GamingPCFactory budgetFactory = new BudgetPCFactory();
         GamingPCClient budgetClient = new GamingPCClient(budgetFactory);
+
+        System.out.println("===== FACTORY METHOD =====");
 
         System.out.println("\nBudget Gaming PC:");
         budgetClient.showPC();
@@ -23,9 +27,13 @@ public class Main {
         System.out.println("\nHigh-End Gaming PC:");
         highEndClient.showPC();
 
-        System.out.println("\n\n===== ABSTRACT FACTORY =====");
+        // ==========================
+        // ABSTRACT FACTORY
+        // ==========================
+
 
         GamingPCAssembler assembler = new GamingPCAssembler();
+        System.out.println("\n\n===== ABSTRACT FACTORY =====");
         System.out.println("\nBudget Component Family:");
 
         assembler.buildPC(new BudgetComponentFactory());
