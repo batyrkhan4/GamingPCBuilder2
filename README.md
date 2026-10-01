@@ -223,8 +223,3 @@ This project demonstrates:
 - Composition of related objects.
 - Extensibility of object-oriented applications.
 
-## Authors
-
-**GamingPCBuilder2 Project**
-
-Created as an educational Java project demonstrating software design patterns.
