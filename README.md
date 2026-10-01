@@ -61,7 +61,6 @@ Concrete component implementations include:
 - `HighEndGPU`
 - `HighEndRAM`
 - `HighEndStorage`
-
 `GamingPCAssembler` uses a component factory to create and assemble a complete PC from compatible components.
 
 ## Project Structure
